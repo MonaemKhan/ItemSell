@@ -7,7 +7,7 @@ import { FormBuilder, Validators } from '@angular/forms';
   styleUrls: ['../demo-styling.css','./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'Item Sell';
+  title = 'Product Sell';
   product_details: any = [
     {
       Product_Name: 'Double A4 Paper',
