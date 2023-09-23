@@ -1,35 +1,84 @@
-.logo img {
-  padding: 30px 0;
-  width: 100%;
+th,
+td {
+    width: 25%;
 }
 
-.resource-list {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: larger;
-  padding: 10px;
-  text-align: center;
+.tableheader {
+    background-color: rgb(79, 58, 156);
+    color: white;
 }
 
-.resource-list ul {
-    text-align: left;
-    margin: 0 auto;
-    width: 300px;
+table,
+tr,
+th,
+td {
+    /* border: 1px solid; */
+    text-align: center;
 }
 
-.resource-list a {
-  color: black;
-  line-height: 30px;
+.card {
+    width: 75%;
 }
 
-footer {
-  bottom: 10px;
-  font-family: Helvetica, Arial, sans-serif;
-  margin: 0 auto;
-  width: 100%;
-  position: fixed;
-  text-align: center;
+.bill-table td,
+.bill-table th {
+    width: 18%;
 }
 
-footer img {
-    width: 20px;
+.formgroup {
+    width: 25%;
+}
+
+.formgroup select,
+.formgroup input {
+    height: 50%;
+    width: 80%;
+    margin: 10px;
+}
+
+.error-class {
+    top: 0px;
+    position: absolute;
+    background-color: aliceblue;
+    width: 500px;
+    height: fit-content;
+    border: 1px solid;
+}
+
+.errorclassdiv {
+    border: 5px solid;
+    animation: borderAnimation 5s;
+    transition: all 1s;
+}
+
+@keyframes borderAnimation {
+    0% {
+        width: 0%;
+        border-color: transparent;
+    }
+
+    20% {
+        width: 20%;
+        border-color: red;
+    }
+
+    40% {
+        width: 40%;
+        border-color: green;
+    }
+
+    60% {
+        width: 60%;
+        border-color: blue;
+    }
+
+    80% {
+        width: 80%;
+        border-color: yellowgreen;
+    }
+
+    100% {
+        width: 100%;
+        border-color: aquamarine;
+    }
 }
